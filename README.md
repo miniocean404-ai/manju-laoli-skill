@@ -21,7 +21,7 @@
 
 **快速开始**：`openclaw skills install ./short-drama-director --as short-drama-director`，完整规则与指令见 [`short-drama-director/SKILL.md`](short-drama-director/SKILL.md)。
 
-旧版 V5.0.2 与空间导演 V3 保留在 [`legacy/`](legacy/) 供回溯。
+旧版 V5.0.2 与空间导演 V3 已归档至独立仓库：[**manju-laoli-skill-legacy**](https://github.com/lixiaoxiao9888-create/manju-laoli-skill-legacy)。
 
 ---
 
@@ -43,7 +43,7 @@ The pipeline: *novel analysis → gated screenwriting → dialogue diagnosis →
 
 **Quick start**: `openclaw skills install ./short-drama-director --as short-drama-director`. Full rules & commands live in [`short-drama-director/SKILL.md`](short-drama-director/SKILL.md).
 
-Previous V5.0.2 and Space Director V3 are kept under [`legacy/`](legacy/) for reference.
+Previous V5.0.2 and Space Director V3 are archived in the separate repo: [**manju-laoli-skill-legacy**](https://github.com/lixiaoxiao9888-create/manju-laoli-skill-legacy).
 
 ---
 
@@ -51,14 +51,11 @@ Previous V5.0.2 and Space Director V3 are kept under [`legacy/`](legacy/) for re
 
 ```
 lixiaoxiao9888-create/manju-laoli-skill/
-├── short-drama-director/          # V6.0 main package (23 files)
-│   ├── SKILL.md                   # Router + working method + module index
-│   ├── references/                # 18 professional rulebooks
-│   ├── scripts/check_package.py   # static lint
-│   ├── README.md  /  LICENSE  /  CHANGELOG.md
-└── legacy/                        # archived previous versions
-    ├── manju-laoli-v5.0/          # V5.0.2
-    └── space-director-v3/         # Space Director V3
+└── short-drama-director/          # V6.0 main package (23 files)
+    ├── SKILL.md                   # Router + working method + module index
+    ├── references/                # 18 professional rulebooks
+    ├── scripts/check_package.py   # static lint
+    └── README.md  /  LICENSE  /  CHANGELOG.md
 ```
 
 ## 📄 License
