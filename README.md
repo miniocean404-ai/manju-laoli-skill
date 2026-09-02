@@ -92,9 +92,98 @@ lixiaoxiao9888-create/manju-laoli-skill/
 
 <div align="center">
 
-### 📄 License
+---
 
-MIT · 仅供创作与学习使用，请遵守各平台内容规范
+# 🇬🇧 English Overview
+
+## **V6.5 Multi-Agent** · Short-Drama Director Suite
+
+**An industrial-grade screenwriting & audiovisual-directing system for viral short dramas / animated short dramas (Douyin & Hongguo), built for AI agents/LLMs to call directly.**
+
+![Pipeline](https://img.shields.io/badge/Pipeline-Asset--First-6a5acd)
+![Platforms](https://img.shields.io/badge/Platforms-OpenClaw%20%7C%20Coze%20%7C%20Dify%20%7C%20WorkBuddy-00b4d8)
+![Seedance](https://img.shields.io/badge/Rendering-Seedance%202.5-2ec4b6)
+![QC](https://img.shields.io/badge/QC-P0%2FP1%2FP2-ff6b6b)
+
+### 🎥 Production Pipeline
+
+```
+📋 Project Lock-in → ✍️ Gated Screenwriting → 🎙️ Dialogue Diagnosis → 🖼️ Asset Locking → 🎬 Dual-mode Storyboard → 🚀 Prompt Rendering → ✅ Independent QC
+```
+
+</div>
+
+---
+
+## 🔥 Feature Highlights
+
+| Domain | Capability | Description |
+|:---:|:---|:---|
+| 🏗️ **Pipeline** | Asset-First 6-stage | P0–P5 single authoritative production order; **asset images precede storyboards** |
+| 🖥️ **Platforms** | Multi-agent adapters | OpenClaw / WorkBuddy / Doubao Coze / Dify + Doubao JSON chunking |
+| 📐 **Aspect Ratio** | Adaptive routing | Full horizontal/vertical pipeline arbitration, user instruction first |
+| ✍️ **Screenwriting** | 5-stage gated engine | Premise→Structure→Beat→Entity→Page; no dialogue without structure |
+| 🎙️ **Dialogue** | 7-dimension diagnosis + speed check | No broadcast tone; 3 speed tiers / 5-step flow / shot splitting |
+| 🖼️ **Assets** | Industrial ledger | A/B/C graded locking + CHR/AUD/PRP/SCN/Uxx ledger + T1→T2 lineage derivation |
+| 📈 **Emotion** | 12-beat curve | Full-episode emotional intensity quantified + visual chart |
+| 🎬 **Storyboard** | Dual-mode | Micro-expression progression (drama) + 15s action completion scoring (R1/R2/R3) |
+| ⚔️ **Action** | Full martial-arts library | 23 schools + 9 sword forms + weapons + lightness skills + 11 finisher links |
+| 🔮 **Fantasy** | Magic combat R3 | Artifacts / five-element spells / spell attack-defense / energy materialization / army-clearing |
+| 🚀 **Rendering** | Seedance 2.5 deep adaptation | 15s / first-last frame dual-image / Hit-Stop / native [SFX:] / 3-layer decoupling |
+| 🎥 **Space** | 2×2 top-view camera | CAM1–4 + dual storyboard-map templates (dialogue camera / combat stance) |
+| ✅ **QC** | 3-tier gates + checklist | P0/P1/P2 independent gates + P4 pre-feed 6-step execution sequence |
+| 🛡️ **Compliance** | Safety dictionary | Platform-risk reduction; no 100% pass guarantee |
+
+---
+
+## ⚙️ Quick Start
+
+```bash
+# Install into OpenClaw
+openclaw skills install ./short-drama-director --as short-drama-director
+
+# Lint package integrity (33-module static check)
+python3 short-drama-director/scripts/check_package.py
+```
+
+Full rules & commands: [`short-drama-director/SKILL.md`](short-drama-director/SKILL.md)
+
+---
+
+## 📦 Structure
+
+```
+lixiaoxiao9888-create/manju-laoli-skill/
+└── short-drama-director/              # V6.5 Multi-Agent main package (39 files)
+    ├── SKILL.md                       # Router + working method + module index
+    ├── references/                    # 33 professional rulebooks
+    │   ├── asset-first-pipeline.md    #   Asset-First 6-stage (authoritative)
+    │   ├── seedance-render-engine.md  #   Seedance 2.5 3-layer decoupling
+    │   ├── combat-direction-engine.md #   Combat direction engine
+    │   ├── ★ prompt-feeding-checklist.md  # P4 pre-feed mandatory checklist
+    │   └── ... 33 modules total
+    ├── scripts/
+    │   ├── check_package.py           # Static lint
+    │   └── generate_emotion_curve.py  # Emotion curve chart
+    └── README.md / LICENSE / CHANGELOG.md
+```
+
+---
+
+## 📜 Changelog
+
+- **V6.5 Multi-Agent** (2026-09-02) — Asset-First 6-stage + multi-agent platform adapters + Seedance 2.5 deep adaptation + no-static-scene iron rule (AI video models cannot "act" while standing still; all emotion/charging must happen in motion)
+- **V6.0** (2026-08-28) — 23-module reorganization + slimming + audit fixes
+- **V5.0.2** (2026-08-27) — martial-arts library completion + combat-priority declaration
+- Legacy archive: [**manju-laoli-skill-legacy**](https://github.com/lixiaoxiao9888-create/manju-laoli-skill-legacy)
+
+---
+
+<div align="center">
+
+## 📄 License
+
+**MIT** · For creative & learning use; comply with platform content policies
 
 **Made with ❤️ for AI Content Creators**
 
